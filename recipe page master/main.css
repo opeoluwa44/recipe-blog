@@ -9,7 +9,7 @@ body{
 .heading{
     font-family: 'Playfair Display', sans-serif;
     font-weight: 700;
-    font-size: 1.9rem;
+    font-size: 1.9em;
     min-width: 412px;
     margin: 0;
 }
@@ -17,7 +17,7 @@ body{
 .intro ul{
     margin:.7em;
     padding-left: .7em;
-    font-size: 1.1rem;
+    font-size: 1em;
     font-weight: 500;
     list-style-image: url("../recipe-page-master/6dots.svg");
     list-style-position: outside;
