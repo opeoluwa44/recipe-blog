@@ -1,0 +1,329 @@
+body{
+    padding:1.5em 0.2em 0 0.2em;
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+}
+
+
+
+.heading{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 1.9rem;
+    min-width: 412px;
+    margin: 0;
+}
+
+.intro ul{
+    margin:.7em;
+    padding-left: .7em;
+    font-size: 0.9rem;
+    font-weight: 500;
+    list-style-image: url("../recipe-page-master/6dots.svg");
+    list-style-position: outside;
+    max-width: 590px;
+    color: #4f4f4f;
+    
+}
+
+
+.intro ul li{
+    font-style: italic;
+    padding-left: .5em;
+    margin-bottom: 1.5em;
+    
+}
+
+
+
+img{
+    width: 93vw;
+    max-height: 490px;
+    
+}
+
+.serving{
+    margin-top: 3em;
+    
+}
+
+
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+    padding-right: 1em;
+    
+    
+}
+
+.lead-icon{
+    display: flex;
+    flex-direction: row;
+}
+
+#fork{
+    
+    margin-top: -.1em;
+    fill: #f2994a;
+    
+    
+}
+
+.side-text{
+    margin-left: .3em;
+    margin-top: -.3em;
+}
+
+.icon-name{
+    margin: 0;
+    font-size: .7rem;
+    font-weight: 700;
+    margin-left: .1em;
+    color: #BDBDBD;
+    white-space: nowrap;
+
+}
+
+.desc{
+    margin: 0;
+    font-size: 1em;
+    color: orange;
+    
+}
+
+.follow-up-icons{
+    padding: 2em .1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+    
+
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.text{
+    margin-left: .3em;
+    margin-top: -.3em;
+}
+
+.icon-desc{
+    margin: 0;
+    font-size: 1em;
+    font-weight:500;
+    white-space: nowrap;
+}
+
+.ingredient-list{
+    margin-top: -1em;
+    
+}
+
+.title{
+
+}
+
+.sub-title{
+    margin-top: -.3em;
+}
+
+.list-holder{
+    display: flex;
+    margin-top: 1em;
+}
+
+.list-box{
+    outline: 1px #828282 solid;
+    min-width: 21px;
+    height:21px;
+    border-radius: .2em .2em;
+    margin-right: 8px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.info{
+    margin-top: .1em;
+    margin-left: .1em;
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 400;
+    color: #333333;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.subtitle-2{
+    
+}
+
+.number{
+    background: orange;
+    color: white;
+    padding: .2em;
+    outline: none;
+}
+
+
+
+
+
+
+footer{
+display: block;
+white-space: nowrap;
+margin: 5em 0 0 0;
+text-align: center;
+font-size: 1.2em;
+}
+        
+    
+.creator{
+color:#BDBDBD;
+            
+}
+    
+a{
+color:#BDBDBD;
+
+    
+}
+    
+.dev-link{
+text-decoration: none;
+}
+
+.source{
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: left;
+    color:#BDBDBD;
+   
+    
+    
+}
+
+.no-line{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+
+@media only screen and (min-width:590px){
+
+    body{
+        text-align: center;
+        margin: 0 5em;
+    }
+
+   .heading{
+        text-align: left;
+        font-size: 2rem;
+
+    }
+
+    .intro ul{
+        text-align: left;
+    }
+
+    img{
+        display:block;
+        max-width: 75vw;
+        height: auto;  
+    }
+    
+    .ingredient-container{
+        text-align: left;
+    }
+
+    .cheesecake-container{
+        text-align: left;
+    }
+
+    .instruction-section{
+        text-align: left;
+    }
+
+    .source{
+        text-align: left;
+        white-space: nowrap;
+    }
+}
+
+
+
+@media only screen and (min-width:890px){
+
+    body{
+        margin: 1em 10em;
+    }
+
+    .heading{
+        font-size: 2.6em;
+    }
+
+
+    .section-container{
+        align-items: flex-end;
+        flex-grow: 1;
+        float: right;
+        text-align: left;
+        background:#ffffff;
+        box-shadow: 0 3px 10px  rgba(0, 0, 0, 0.2);
+        width: 110px;
+        min-height: auto;
+        padding:3em 4em 0 2em;
+        border-radius: 10px;
+        display: block;
+        margin-right: -.8em;
+       
+
+    }
+
+    .follow-up-icons{
+        flex-direction: column;
+        margin-right: -.1em;
+        margin-top: -2em;
+        
+    }
+
+
+    .icon{
+        padding: 2.5em 0 0 0;
+        
+    }
+
+    .icon-desc, .desc{
+        white-space: nowrap;
+    }
+
+    .ingredient-list{
+        
+        width: 900px;
+    }
+
+    .ingredient-container{
+        max-width: 35vw;
+    }
+
+
+
+    .cheesecake-container{
+        max-width: 35vw;
+    }
+
+    .instruction-section{
+        max-width: 35vw;
+    }
+
+}
